@@ -1,0 +1,11 @@
+CREATE TABLE Persons(
+Pid int,
+LastName VARCHAR(255),
+FirstName VARCHAR(255),
+Address VARCHAR(255),
+City VARCHAR(255)
+);
+
+SELECT * FROM INFORMATION_SCHEMA.TABLES;
+
+SELECT * FROM dbo.Persons;
